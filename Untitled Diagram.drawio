@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="qPg6WQRX9tsxt2RveJvW">
-    <mxGraphModel dx="735" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1838" dy="1453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,66 @@
           <mxGeometry x="320" y="270" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1Q56Xo-iMf464JhgWp11-8" value="Load sensor data" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="410" width="210" height="90" as="geometry" />
+          <mxGeometry x="325" y="410" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-9" target="1Q56Xo-iMf464JhgWp11-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-9" value="manual mode selected" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="296.67" y="580" width="266.66" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-11" value="smart mode sleected" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="680" width="266.66" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-12" value="enter watering cycle (days, start time, end time)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="790" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-9" target="1Q56Xo-iMf464JhgWp11-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-16" value="no" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-17" target="1Q56Xo-iMf464JhgWp11-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-17" value="Load sensor data" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="618.33" y="870" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-18" value="load weather forecast" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="618.33" y="990" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=-0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-11" target="1Q56Xo-iMf464JhgWp11-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-21" target="1Q56Xo-iMf464JhgWp11-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-21" target="1Q56Xo-iMf464JhgWp11-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-21" value="sensorReading &amp;lt; threshold" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1110" width="266.66" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-23" value="switch on valve" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="290.00000000000006" y="1400" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-24" value="rainProbability &amp;gt; 70%" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="263.34" y="1190" width="266.66" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-26" value="yes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Q56Xo-iMf464JhgWp11-23" target="1Q56Xo-iMf464JhgWp11-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q56Xo-iMf464JhgWp11-28" value="no" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1360" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
